@@ -21,7 +21,7 @@ public class Address {
 	private String cityName;
 	
 	@NotNull(message = "Pincode cannot be empty")
-	@Size(min = 6,max = 6,message = "Pincode must be 6 digits")
+	//@Size(min = 6,max = 6,message = "Pincode must be 6 digits")
 	private int pincode;
 	
 	@NotNull(message = "State name cannot be empty")
