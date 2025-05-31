@@ -16,4 +16,14 @@ public interface CustomerService {
 
 	public List<Customer> getAllCustomers();
 
+	public Customer getCustomerById(int cid);
+
+	public List<Orders> getAllOrders();
+
+	public Orders getOrderById(int oid);
+
+	public Customer updateOrder(int cid, int oid, Orders o);
+
+	public Customer deleteOrderById(int cid,int oid);
+
 }
